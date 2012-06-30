@@ -1,0 +1,49 @@
+// Place all the styles related to the resume controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+p.objective {
+    text-align: center;
+    margin-top: 5px;
+}
+
+div.contact {
+    display: block;
+
+    float: right;
+    top: 15px;
+    left: 0;
+    margin-left: 5px;
+    width: 255px;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    background-color: #CCCCCC;
+
+    padding: 10px;
+
+    border: 1px solid #CCCCCC;
+}
+
+div.contact h3 {
+    text-align: center;
+    margin: 0;
+}
+
+div.contact dl {
+    margin: 0;
+}
+
+ul.doublecolumn li {
+    float: left;
+    width: 50%;
+}
+
+p.skills {
+    height: 100px;
+}
+
+p.personal {
+    height: 0px;
+}
+

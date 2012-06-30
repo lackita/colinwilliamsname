@@ -1,0 +1,23 @@
+<h1>Listing treks</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @treks.each do |trek| %>
+  <tr>
+    <td><%= trek.name %></td>
+    <td><%= link_to 'Show', trek %></td>
+    <td><%= link_to 'Edit', edit_trek_path(trek) %></td>
+    <td><%= link_to 'Destroy', trek, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Trek', new_trek_path %>
