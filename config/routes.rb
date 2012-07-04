@@ -1,9 +1,9 @@
 ColinwilliamsName::Application.routes.draw do
-  resources :treks
+  get "resume" => "pages#resume"
+
+  get "trek2013" => "pages#trek2013"
 
   get "/" => "navigation#index"
-
-  get "resume" => "resume#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
