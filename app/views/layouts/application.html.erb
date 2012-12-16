@@ -2,15 +2,15 @@
 <html>
 <head>
   <title>Colin Williams</title>
-  <%= stylesheet_link_tag    :application %>
-  <%= stylesheet_link_tag    params[:controller] %>
+  <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <div class="main">
-<%= yield %>
+  <%= yield %>
+  <footer />
 </div>
 
 </body>

@@ -3,6 +3,7 @@
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
+ *= require_tree .
 */
 
 body {
@@ -10,7 +11,8 @@ body {
 }
 
 .main {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
+    background-color: #E6E6FA;
     width: 800px;
     margin: 0 auto;
     border-radius: 10px;
@@ -42,4 +44,8 @@ dl dt {
 
 dt.important {
     float: none;
+}
+
+footer {
+    clear: both;
 }
