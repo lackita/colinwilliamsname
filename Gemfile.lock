@@ -25,8 +25,6 @@ GEM
       activesupport (= 3.1.0)
       arel (~> 2.2.1)
       tzinfo (~> 0.3.29)
-    activerecord-postgresql-adapter (0.0.1)
-      pg
     activeresource (3.1.0)
       activemodel (= 3.1.0)
       activesupport (= 3.1.0)
@@ -115,7 +113,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  activerecord-postgresql-adapter
   coffee-rails (~> 3.1.0)
   jquery-rails
   json
