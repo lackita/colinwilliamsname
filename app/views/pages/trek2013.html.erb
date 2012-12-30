@@ -9,9 +9,11 @@
   </div>
 </div>
 
-<div style="width: 620px; height: 100%;float:left">
-  <!-- Start MMF Embed Tool -->
-    <iframe id="mmf_blog_map" src="http://www.mapmyride.com/routes/view/embedded/16322399" height="430px" width="100%" frameborder="1">
-    </iframe>
-  <!-- End MMF Embed Tool -->
-</div>
+<% if !mobile_device? %>
+  <div style="width: 620px; height: 100%;float:left">
+	<!-- Start MMF Embed Tool -->
+	  <iframe id="mmf_blog_map" src="http://www.mapmyride.com/routes/view/embedded/16322399" height="430px" width="100%" frameborder="1">
+	  </iframe>
+	<!-- End MMF Embed Tool -->
+  </div>
+<% end %>
