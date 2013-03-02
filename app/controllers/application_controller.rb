@@ -6,7 +6,6 @@ class ApplicationController < ActionController::Base
   private
 
   def mobile_device?
-    debugger
     if session[:mobile_param]
       session[:mobile_param] == "1"
     else
@@ -16,7 +15,6 @@ class ApplicationController < ActionController::Base
   helper_method :mobile_device?
 
   def prepare_for_mobile
-    debugger
     session[:mobile_param] = params[:mobile] if params[:mobile]
   end
 end
