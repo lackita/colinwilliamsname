@@ -1,0 +1,106 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+
+
+*/
+
+
+body {
+    background-color: #333333;
+}
+
+.main {
+    /*background-color: #FFFFFF;*/
+    background-color: #E6E6FA;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 0;
+}
+
+dl dt {
+    float: left;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+dt.important {
+    float: none;
+}
+
+footer {
+    clear: both;
+}
+p.objective {
+  text-align: center;
+  margin-top: 5px; }
+
+div.contact {
+  display: block;
+  float: right;
+  top: 15px;
+  left: 0;
+  margin-left: 5px;
+  width: 266px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #CCCCCC;
+  padding: 10px;
+  border: 1px solid #cccccc; }
+
+div.contact h3 {
+  text-align: center;
+  margin: 0; }
+
+div.contact dl {
+  margin: 0; }
+
+ul.doublecolumn li {
+  float: left;
+  width: 50%; }
+
+p.skills {
+  height: 100px; }
+
+p.personal {
+  height: 0px; }
+
+.hidden {
+  display: none; }
+
+a.button {
+  background: #9ACD32;
+  padding: 5px;
+  margin: 0px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  border: solid black 2px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none; }
+
+a.button:active {
+  border: solid black 1px;
+  background: #9AFF32; }
+
+div.date {
+  font-weight: bold; }
