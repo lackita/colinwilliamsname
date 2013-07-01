@@ -3,7 +3,7 @@ ColinwilliamsName::Application.routes.draw do
 
   get "trek2013" => "pages#trek2013"
 
-  get "/" => "pages#trek2013"
+  get "/" => "pages#resume"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

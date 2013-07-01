@@ -24,7 +24,6 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'debugger'
 end
 
 # Use unicorn as the web server
