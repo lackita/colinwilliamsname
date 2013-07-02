@@ -43,6 +43,15 @@ div.doublecolumn {
 	column-gap: 20px;
 }
 
+div.quadcolumn {
+    -moz-column-count: 4;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 10px;
+    column-count: 4;
+	column-gap: 10px;
+}
+
 p.skills {
     height: 200px;
 }
