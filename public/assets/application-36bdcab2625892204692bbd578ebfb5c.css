@@ -67,13 +67,9 @@ div.contact h3 {
 div.contact dl {
   margin: 0; }
 
-div.doublecolumn {
-  -moz-column-count: 2;
-  -moz-column-gap: 20px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 20px;
-  column-count: 2;
-  column-gap: 20px; }
+ul.doublecolumn li {
+  float: left;
+  width: 50%; }
 
 p.skills {
   height: 200px; }

@@ -6,8 +6,7 @@
 
 */
 
-
-body {
+/*body {
     background-color: #333333;
 }
 
@@ -36,13 +35,20 @@ ul {
     margin: 0;
 }
 
-ul.experience li {
-	list-style-type: none;
+dl dt {
+    float: left;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+dt.important {
+    float: none;
 }
 
 footer {
     clear: both;
-}
+}*/
+
 p.objective {
   text-align: center;
   margin-top: 5px; }
@@ -67,13 +73,9 @@ div.contact h3 {
 div.contact dl {
   margin: 0; }
 
-div.doublecolumn {
-  -moz-column-count: 2;
-  -moz-column-gap: 20px;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 20px;
-  column-count: 2;
-  column-gap: 20px; }
+ul.doublecolumn li {
+  float: left;
+  width: 50%; }
 
 p.skills {
   height: 200px; }

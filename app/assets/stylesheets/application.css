@@ -11,7 +11,6 @@ body {
 }
 
 .main {
-    /*background-color: #FFFFFF;*/
     background-color: #E6E6FA;
     width: 800px;
     margin: 0 auto;
@@ -36,14 +35,8 @@ ul {
     margin: 0;
 }
 
-dl dt {
-    float: left;
-    font-weight: bold;
-    padding-right: 5px;
-}
-
-dt.important {
-    float: none;
+ul.experience li {
+	list-style-type: none;
 }
 
 footer {

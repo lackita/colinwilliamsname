@@ -34,13 +34,17 @@ div.contact dl {
     margin: 0;
 }
 
-ul.doublecolumn li {
-    float: left;
-    width: 50%;
+div.doublecolumn {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+	column-gap: 20px;
 }
 
 p.skills {
-    height: 100px;
+    height: 200px;
 }
 
 p.personal {
