@@ -9,16 +9,9 @@
 </head>
 <body>
 
-<% if !mobile_device? %><div class="main"><% end %>
+<div class="main">
   <%= yield %>
-  <footer>
-	<% if mobile_device? %>
-	  <%= link_to "Full Site", :mobile => 0 %>
-	<% else %>
-	  <%= link_to "Mobile Site", :mobile => 1 %>
-	<% end %>
-  </footer>
-<% if !mobile_device? %></div><% end %>
+</div>
 
 </body>
 </html>

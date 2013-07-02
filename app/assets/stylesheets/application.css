@@ -35,7 +35,7 @@ ul {
     margin: 0;
 }
 
-ul.experience li {
+ul.nobullets li {
 	list-style-type: none;
 }
 
